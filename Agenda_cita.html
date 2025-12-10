@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+      
+  <div class="linea_rosa"></div>
+    <div class="cont_cabezera"> 
+
+      <div class="cont_encabezado">
+          <div class="cont_imagene">
+            <img src="img/logo.png" alt="" width="150px">
+          </div>
+
+          <div class="menu">
+              <a href="index.html">Inicio</a>
+              <a href="servicios.html">Servicios</a>
+              <a href="galeria.html">Galeria</a>
+              <a href="Agenda_cita.html">Agenda Cita</a>
+              <a href="estilistas.html">Estilistas</a>
+          </div> 
+   </div>
+ </div>
+</div>
+
+<div class="cont_back_agenda">
+  <h1>Tu Belleza, Nuestra Prioridad</h1>
+  <h2>Reserva tu cita y experimenta el lujo de un servicio personalizado en nuestro exclusivo salón de belleza.</h2>
+
+</div>
+
+  <div class="cont_blanco_form">
+  <h1> Agenda tu Cita</h1>
+  <div class="cont_hr_agen">
+  <hr>
+ </div>
+  <h3> Por favor, completa el siguiente formulario para agendar tu cita.</h3>
+  
+
+    <form action="" class="cont_forms">
+      <h3>Datos de la Cita</h3>
+      <hr><br><br>
+      <label for="nombre" class="">Nombre Completo</label><br>
+      <input type="text" id="nombre" name="nombre" required class="cont_nombre"> <br><br>
+
+      <div class="cont_domiyedad">
+          <div class="cont_domicilio">
+            <label for="domicilio" class="">Domicilio</label>
+            <input type="text" id="domicilio" name="domicilio" required class="cont_nombre"> 
+          </div>
+          <div class="cont_edad">
+            <label for="edad" class="">Edad</label>
+            <input type="number" id="edad" name="edad" required min="18" max="100" class="cont_nombre"> <br>
+          </div>
+
+          <div class="cont_genero">
+          <label for="genero">Genero:</label> <br>
+          <input type="radio" id="mujer" name="genero" value="mujer" required>
+          <label for="mujer">&nbsp;Mujer</label> &nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" id="hombre" name="genero" value="hombre" required>
+          <label for="hombre">&nbsp;Hombre</label>
+        </div>
+    </div> <br>
+
+      <label for="servicio" class="">Tipo de Servicio</label> <br>
+           <select id="servicio" name="servicio" required class="cont_nombre">>
+              <option value="" disabled selected>Selecciona un servicio</option>
+              <option value="corte">Corte y Estilismo</option>
+              <option value="tinte">Tinte y Coloración</option>
+              <option value="manicura">Manicura/Pedicura</option>
+              <option value="maquillaje">Maquillaje Profesional</option>
+              <option value="otro">Otro (Especificar en mensaje)</option>
+           </select> <br> <br>
+
+           <div class="cont_horaydia">
+            <div class="cont_dia">
+            <label for="dia" class="">Día Preferido</label><br>
+            <input type="date" id="dia" name="dia" required class="estilo_calendario">
+            </div>
+
+            <div class="cont_hora">
+            <label for="hora" class="">Hora Preferida</label><br>
+            <input type="time" id="hora" name="hora" required class="estilo_calendario"> <br>
+            </div>
+          </div> 
+        
+          <br><br>
+
+           <label for="recibo" class="cont_txt_adjuntar">Adjuntar Recibo de Pago</label> <br>
+           <input type="file" id="recibo" name="recibo" accept=".pdf" class="cont_archivo negritas">
+           <p class="">Formatos permitidos: PDF*</p>
+
+           <br><br>
+
+          <button type="submit" class="cont_cita_solicitar negritas">Solicitar Cita</button>
+
+    </form>
+    <br><br><br><br>
+</div>
+
+
+<footer>
+  <div class="cont_logo_footer">
+    <img src="img/logo.png" alt="" width="350px">
+  </div>
+
+  <div class="cont_redes">
+    <h2>Redes Sociales</h2> <br>
+              <div class="cont_face">
+                <a href="https://www.facebook.com/SkinRenewalSystems" target="_blank">
+                    <img src="img/face_rosa.png" alt="" width="50px">
+                </a>
+              </div> 
+
+              <div class="cont_insta">
+                <a href="https://instagram.com/skinrenewalmarco" target="_blank">
+                  <img src="img/inst_rosa.png" alt="" width="50px">
+                </a>
+              </div>
+
+              <div class="cont_tw">
+                <a href="https://x.com/skinrenewalspa" target="_blank">
+                    <img src="img/X_rosa.png" alt="" width="50px">
+                </a>
+              </div>
+  </div>
+</footer>
+<div class="linea_rosa"></div>
+
+
+
+</body>
+</html>

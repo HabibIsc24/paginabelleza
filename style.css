@@ -1,0 +1,800 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  line-height: 24px;
+  width: 1200px;
+  color:#333;
+  background-color: #855e5e;
+  margin: auto;
+}
+
+.margenes {
+  padding: 2em;
+  margin: auto  ;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.negritas{
+  font-weight: bold;
+}
+
+
+/* ESTILO DE encabezado */
+
+.linea_rosa{
+  height: 10px;
+  background-color: #CDA7A2;
+}
+.cont_encabezado{
+  text-align: center;
+  padding: 15px;
+  background-color: #ffffff;
+  text-align: left;
+}
+.cont_imagene{
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 150px;
+}
+.cont_imagene img {
+  display: inline-block;
+  text-align: left;
+}
+.menu {
+  padding: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  width: 50%;
+}
+.menu a {
+  font-weight: bold;
+  margin-right: 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 20px;
+}
+.cont_face{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+.cont_insta{
+  display: inline-block;
+  vertical-align: middle;
+   margin-right: 30px;
+}
+.cont_tw{
+  display: inline-block;
+  vertical-align: middle;
+}
+/* FIN DE ESTILO DE encabezado */
+
+
+
+/* ESTILO DE PRIMER DIV CON IMAGEN BACKGROUND */
+.cont_back_princ{
+  width: 100%;
+  height: 600px;
+  background-image: url("img/salon-back.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.txt_cont_back{
+  width: 100%;
+  text-align: center;
+  padding-top: 20% ;
+}
+
+.txtdh1h3{
+  color: white;
+  margin: auto;
+}
+
+.txt_cont_back h1{
+  font-size: 60px;
+}
+
+.txt_cont_back h3{
+  padding-top: 40px;
+  font-size: 20px;
+  width: 58%;
+  font-weight:normal;
+}
+ 
+.estilo_btn{
+  padding: 15px 20px;
+  background-color: #d4a574;
+  margin-top: 40px;
+  text-decoration: none;
+  border-radius: 40px;
+  color: white;
+}
+
+/* FIN DE ESTILO DE PRIMER DIV CON IMAGE BACKGROUND */
+
+/* INCIO DE ESTILO DE SEGUNDO DIV */
+
+.cont_imagenes{
+  width: 100%;
+  margin: auto;
+}
+
+.cont_welcome{
+  width: 100%;
+  text-align:justify;
+  background-color: #F9F5F0;
+  margin: auto;
+}
+
+.txt_welcome{
+  width: 49%;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  height: 500px;
+  vertical-align: top;
+
+}
+.txt_welcome h1{
+  padding-top: 13px;
+font-size: 30px;
+  text-align:center;
+}
+
+.txt_welcome p{
+font-size: 20px;
+text-align:justify;
+width: 80%;
+margin: auto;
+}
+
+.cont_img_welcome{
+  width: 47%;
+  height: 530px;
+  display: inline-block;
+  text-align: right;
+  background-image: url("img/salon.jpg");
+  background-size: cover;
+  background-position: center;
+  vertical-align: top;
+}
+
+.cont_oferta_servicios_index{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: white;
+}
+
+.cont_3_servicios_index{
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+.cont_div_index_servicios_mostrar{
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  margin-right: 15px;
+  background-image: url("img/corte_index.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding-top: 120px;
+  margin-bottom: 30px;
+}
+
+.cont_div_index_servicios_mostrar_coloracion{
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  margin-right: 15px;
+  background-image: url("img/coloracion_index.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding-top: 120px;
+  margin-bottom: 30px;
+}
+
+
+.cont_div_index_servicios_mostrar_maquillaje{
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  margin-right: 15px;
+  background-image: url("img/maquillaje_index_re.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding-top: 120px;
+  margin-bottom: 30px;
+}
+.cont_div_index_servicios_mostrar_corte_masculino{
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  margin-right: 15px;
+  background-image: url("img/corte_index_masculino.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding-top: 120px;
+  margin-bottom: 30px;
+}
+
+.cont_div_index_servicios_mostrar_tratamient_facial{
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  margin-right: 15px;
+  background-image: url("img/tratamiento_facial_index.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding-top: 120px;
+  margin-bottom: 30px;
+}
+
+.cont_div_index_servicios_mostrar_manicura{
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  margin-right: 15px;
+  background-image: url("img/manicura_index.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding-top: 120px;
+  margin-bottom: 30px;
+}
+.cont_txt_h2_servicios{
+  color: white;
+  width: 70%;
+  margin: auto;
+}
+
+.cont_video{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #F9F5F0;
+}
+.cont_video h1{
+  padding-bottom: 10px;
+
+}
+.cont_video hr{
+  border: 3px solid #D4A574;
+  width: 10%;
+  margin: auto;
+}
+
+.cont_vide_yt{
+  margin: auto;
+  width: 560px;
+  margin-top: 30px;
+}
+
+
+.cont_precio{
+  padding: 40px 40px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: #f9f5f0;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.cont_Nuestra_Ubicacion h1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.info_ven_a_conocernos h3{
+  text-align: justify;
+  color:#FFC371 ;
+}
+
+.info_ven_a_conocernos p{
+  text-align: justify;
+}
+
+
+.cont_Nuestra_Ubicacion hr{
+  width: 10%;
+  border: 3px solid  #FFC371;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.info_ven_a_conocernos{
+  width: 46%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  padding-right: 15px;
+}
+
+.cont_ubicacion{
+  width: 46%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 15px;
+}
+
+.cont_iconos{
+  width: 15%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cont_info_direccion{
+    border:none;
+}
+.text_ubicacion{
+  width: 80%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cont_Nuestra_Ubicacion{
+  background-color: white;
+  padding: 40px 40px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+
+}
+.cont_3_img{
+  border: 1px solid #ab3838;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.cont_3_img img{
+  width: 20%;
+  margin: 10px;
+  width: 260px;
+  height: 300px;
+}
+
+.cont_imagenes h1{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+
+}
+
+/* ESTILO DE FORMULARIO */
+
+.cont_blanco_form{
+  background-color:rgb(255, 255, 255);
+  margin: auto;
+  height: auto;
+}
+.cont_blanco_form h1{
+  padding-top: 70px;
+  padding-bottom: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+.cont_blanco_form h3{
+  text-align: center;
+  padding-bottom: 70px;
+  padding-top: 10px;
+
+}
+
+.cont_forms{
+  width: 80%;
+  margin: auto;
+  padding: 40px 40px 40px 40px;
+ border: 2px solid #D1D5DB;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+}
+
+.cont_nombre{
+  width: 100%;
+  margin-block: 6px;
+  height: 49px;
+  padding-left: 10px;
+  border-radius: 5px;
+    border: 3px solid #D1D5DB;
+  font-size: 20px;
+}
+
+.cont_domicilio{
+  width: 50%;
+  display: inline-block;
+
+}
+
+.cont_edad{
+  width: 14%;
+  padding-left: 40px;
+  display: inline-block;
+
+}
+
+.cont_genero{
+  width: 30%;
+  padding-left: 40px;
+  display: inline-block;
+  line-height: 40px;
+}
+
+
+.cont_domiyedad{
+  border: none;
+}
+
+label {
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 0px;
+}
+
+.cont_horaydia{
+  width: 100%;
+  height: auto;
+  text-align:center;
+}
+
+.cont_dia{
+  width: 45%;
+  display: inline-block;
+}
+
+.cont_hora{
+  width: 45%;
+  display: inline-block;
+}
+
+.estilo_calendario{
+  width: 80%;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 20px 20px 20px 20px;
+  border: 3px solid #D1D5DB;
+}
+
+.cont_archivo{
+  color: #D4A574;
+  font-size: 22px;
+  
+}
+
+.cont_cita_solicitar{
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #D4A574;
+  border: none;
+  color: white;
+  font-size: 20px;
+
+}
+
+.cont_forms h3{
+text-align: left;
+font-size: 30px;
+padding-bottom: 10px;
+  color: #000000;
+}
+
+.cont_forms hr{
+  width: 40%;
+  border: 2px solid  #D4A574;;
+}
+
+
+footer{
+  background-color: #333333;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+}
+.cont_logo_footer{
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  margin: 20px 20px 20px 20px;
+
+}
+ 
+.cont_redes{
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  margin: 20px 20px 20px 20px;
+  color: white;
+  text-align: right;
+}
+
+.colores{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 60px 60px 60px 60px;
+}
+
+.cont_color{
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #333333;
+  border: 5px solid black;
+  height: 100px;
+  width: 100px;
+  margin-right: 50px;
+}
+
+.cont_color_rosa{
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #e6a4b4;
+  border: 5px solid black;
+  height: 100px;
+  width: 100px;
+  margin-right: 50px;
+}
+
+
+.cont_color_dorado{
+  display: inline-block;
+  border-radius: 50px;
+  background-color:  #d4a574;
+  border: 5px solid black;
+  height: 100px;
+  width: 100px;
+  margin-right: 50px;
+}
+
+
+.cont_color_negro{
+  display: inline-block;
+  border-radius: 50px;
+  background-color:  #000000;
+  border: 5px solid rgb(0, 0, 0);
+  height: 100px;
+  width: 100px;
+  margin-right: 50px;
+}
+
+/* INCIO DE ESTILO DE SECCION ESTILISTAS*/
+
+.cont_titulo_estilistas{
+  background-color: #F9F5F0;
+  height: 145px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.cont_estilistas{
+  width: 100%;
+  text-align: center;
+}
+
+.contenedor_2divs_estilistas{
+  border:none;
+  background-color: white;
+}
+
+.cont_img_estilistas{
+  display: inline-block;
+  width: 18%;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.cont_img_estilistas img{
+  border-radius: 50%;
+}
+
+.cont_info_estilistas{
+  display: inline-block;
+  width: 70%;
+  text-align: justify;
+  vertical-align: middle;
+}
+
+.btn_portafolio a{
+  margin-right: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 24px;
+  background-color:#000000;
+  border-radius: 50px;
+}
+.contenedor_2divs_estilistas hr{
+  border: 1px solid black;
+  width: 90%;
+  margin: auto;
+}
+
+.cont_titulo_estilistas h1{
+  width: 50%;
+  padding: 55px;
+  height: 100%;
+  margin: auto;
+}
+
+
+/* FIN DE ESTILO DE SECCION ESTILISTAS*/
+
+
+/* INICIO DE ESTILO DE SECCION SERVICIOS*/
+
+.cont_servicios_back{
+  width: 100%;
+  height: 400px;
+  background-image: url("img/back_servicios.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #ffffff;
+  padding: 140px 50px;
+  
+}
+
+.cont_servicios_back h1{
+  width: 70%;
+  margin: auto;
+  font-size: 50px;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.cont_servicios_back p{
+  width: 55%;
+  margin: auto;
+  font-size: 25px;
+  height: auto;
+  line-height: 30px;
+}
+
+.cont_servicios{
+  background-color: #F9F5F0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.cont_3_servicios{
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+.cont_servicios_recuadro{
+    background-color: #ffffff;
+    width: 29%;
+    display: inline-block;
+    text-align: left;
+    color: #555555;
+    list-style-type: none;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.cont_img_servicos_recuadros {
+    border-radius: 20px;
+      overflow: hidden;
+      margin-bottom:15px;
+}
+
+.cont_img_servicos_recuadros img{
+  max-height: 200px;
+}
+
+.cont_txt_recuadros{
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+}
+
+.cont_txt_recuadros h3{
+  padding-bottom: 10px;
+}
+
+
+.cont_txt_recuadros p{
+    padding-bottom: 25px;
+}
+
+.cont_txt_recuadros li{
+    padding-bottom: 13px;
+}
+
+.cont_servicios hr{
+  border: 2px solid #D4A574 ;
+  width: 7%;
+  margin: auto;
+}
+.cont_servicios h1{
+  padding-bottom: 15px;
+}
+
+.cont_txt_recuadros h4{
+  color: #D4A574;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.cont_formulario_redirreccion{
+  width: 100%;
+  background: linear-gradient(to bottom ,#D4A574, #f1d7bb);
+  color: rgb(255, 255, 255);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.cont_formulario_redirreccion h3{
+  margin: auto;
+  width: 50%;
+}
+.btn_reservar_cita{
+
+  padding-top: 50px;
+}
+
+.btn_reservar_cita a{
+  margin-right: 20px;
+  color: #D4A574;
+  text-decoration: none;
+  font-size: 23px;
+  padding: 20px 40px;
+  background-color:#ffffff;
+  border-radius: 50px;
+}
+
+.cont_back_agenda{
+  width: 100%;
+  height: 300px;
+  background-image: url("img/back_cita.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cont_back_agenda h1{
+  padding-top: 100px;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.cont_back_agenda h2{
+  padding-top: 30px;
+  color: white;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.cont_hr_agen hr{ 
+  width: 10%;
+  margin: auto;
+  border: #D4A574 solid 2px;
+}
